@@ -1,0 +1,18 @@
+# Build output / dependencies
+backend/target/
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# IDE / OS files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local environment and local-only config
+.env
+.env.*
+!.env.example
+backend/src/main/resources/application-local.properties
